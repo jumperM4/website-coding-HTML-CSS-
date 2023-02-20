@@ -469,3 +469,65 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+/* Introduction start */
+
+.introduction {
+    max-width: 100%;
+    height: 873px;
+}
+
+.header {
+    max-width: 845px;
+    height: 148px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    margin: 80px 299px 645px 296px;
+}
+
+.header__subheading {
+    width: 237px;
+    height: 16px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #4343FF 0%, #F96D6D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mainheading {
+    width: 845px;
+    height: 110px;
+
+    font-family: 'Grotesk Hanken';
+    font-size: 46px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #110C11;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Introduction end */
