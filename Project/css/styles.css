@@ -549,17 +549,13 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    box-sizing: border-box;
 
+    padding: 22px;
     width: 387px;
-    height: 225px;
 }
 
 .devinfo__item-heading {
-    width: 230px;
-    height: 23px;
-
-    margin: 22px 185px 28px 22px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -567,18 +563,12 @@ textarea {
     line-height: 23px;
     text-transform: uppercase;
 
-    color: #110C11;
+    margin-bottom: 28px;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: #110C11;
 }
 
 .devinfo__item-text {
-    width: 343px;
-    height: 130px;
-    margin: 0px 22px 22px 22px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -586,10 +576,6 @@ textarea {
     line-height: 26px;
 
     color: #5C5C5C;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 /* Introduction end */
