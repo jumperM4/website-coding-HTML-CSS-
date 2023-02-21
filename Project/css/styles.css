@@ -472,9 +472,10 @@ textarea {
 
 /* Introduction start */
 
-.introduction {
-    max-width: 100%;
+.wrap {
+    max-width: 1440px;
     height: 873px;
+    margin: 0 auto;
 }
 
 .header {
@@ -487,7 +488,7 @@ textarea {
     padding: 0px;
     gap: 22px;
 
-    margin: 80px 299px 645px 296px;
+    margin: 80px auto;
 }
 
 .header__subheading {
@@ -524,6 +525,67 @@ textarea {
     text-align: center;
 
     color: #110C11;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+
+    max-width: 1232px;
+    height: 485px;
+    margin: 0px 104px 80px 104px;
+
+    background: #FFFFFF;
+}
+
+.devinfo__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 387px;
+    height: 225px;
+}
+
+.devinfo__item-heading {
+    width: 230px;
+    height: 23px;
+
+    margin: 22px 185px 28px 22px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    color: #110C11;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.devinfo__item-text {
+    width: 343px;
+    height: 130px;
+    margin: 0px 22px 22px 22px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #5C5C5C;
 
     flex: none;
     order: 1;
