@@ -474,13 +474,15 @@ textarea {
 
 .wrap {
     max-width: 1440px;
-    height: 873px;
     margin: 0 auto;
+}
+
+.intro-background {
+    background: #F9F9FA;
 }
 
 .header {
     max-width: 845px;
-    height: 148px;
 
     display: flex;
     flex-direction: column;
@@ -492,8 +494,7 @@ textarea {
 }
 
 .header__subheading {
-    width: 237px;
-    height: 16px;
+    max-width: 237px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -507,15 +508,13 @@ textarea {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
 
-    flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .mainheading {
-    width: 845px;
+    max-width: 845px;
     height: 110px;
 
     font-family: 'Grotesk Hanken';
@@ -524,9 +523,6 @@ textarea {
 
     text-align: center;
 
-    color: #110C11;
-
-    flex: none;
     order: 1;
     flex-grow: 0;
 }
@@ -539,7 +535,6 @@ textarea {
     gap: 35px;
 
     max-width: 1232px;
-    height: 485px;
     margin: 0px 104px 80px 104px;
 
     background: #FFFFFF;
@@ -552,7 +547,7 @@ textarea {
     box-sizing: border-box;
 
     padding: 22px;
-    width: 387px;
+    max-width: 387px;
 }
 
 .devinfo__item-heading {
