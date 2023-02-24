@@ -562,6 +562,7 @@ textarea {
 
 @media screen and (max-width: 820px) {
     .header {
+        margin-top: 10px;
         margin-bottom: 50px;
     }
 
@@ -574,7 +575,7 @@ textarea {
 
     .devinfo__item {
         padding: 10px;
-        max-width: 350px;
+        max-width: none;
     }
 
     .devinfo__item-heading {
@@ -585,6 +586,7 @@ textarea {
 @media screen and (max-width: 415px) {
 
     .header {
+        margin-top: 10px;
         padding: 10px;
         margin-bottom: 25px;
     }
