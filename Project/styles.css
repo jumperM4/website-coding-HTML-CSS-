@@ -489,6 +489,7 @@ textarea {
     gap: 22px;
 
     margin: 80px auto;
+    margin-bottom: 131px;
 }
 
 .header__subheading {
@@ -560,6 +561,242 @@ textarea {
     color: #5C5C5C;
 }
 
+/* Introduction end */
+
+/* Basicinfo start */
+
+.wrap-background {
+    background: #FFFFFF;
+}
+
+.basicinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 135px;
+    gap: 60px;
+}
+
+.basicinfo__cardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.basicinfo__cardOne-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__cardOne-heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+
+    color: #56565A;
+}
+
+.basicinfo__cardOne-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #56565A;
+}
+
+.basicinfo__cardOne-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__card-buttonOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: white;
+
+    width: 142px;
+    height: 44px;
+
+    background: #0A467E;
+}
+
+.basicinfo__card-buttonTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: white;
+
+    width: 131px;
+    height: 44px;
+
+    background: #0A467E;
+}
+
+.basicinfo__cardTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__cardTwo-subcardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__cardTwo-subcardOne__one {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    gap: 10px;
+
+    background: #F7F7F7;
+
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+
+}
+
+.basicinfo__cardTwo-subcardOne-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__card-subcard-pic1 {
+    width: 30px;
+    height: 30px;
+}
+
+.basicinfo__card-subcard-heading {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #56565A;
+}
+
+.basicinfo__card-subcard-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: #56565A;
+}
+
+.basicinfo__card-subcard-pic2 {
+    width: 170px;
+    height: 0px;
+
+    border: 1px solid #E5E5E5;
+}
+
+.basicinfo__cardTwo-subcardTwo {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px;
+    gap: 10px;
+
+    background: #F7F7F7;
+
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.basicinfo__cardTwo-subcardTwo__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    width: 226px;
+    height: 147px;
+}
+
+.basicinfo__cardTwo-subcardTwo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+}
+
+.basicinfo__cardTwo-subcardThree {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px;
+    gap: 10px;
+
+    background: #F7F7F7;
+
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.basicinfo__cardTwo-subcardThree__three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.basicinfo__cardTwo-subcardThree-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+}
+
+
+
+/* Basicinfo end */
+
 @media screen and (max-width: 820px) {
     .header {
         margin-top: 10px;
@@ -603,5 +840,3 @@ textarea {
         margin-bottom: 10px;
     }
 }
-
-/* Introduction end */
