@@ -578,16 +578,18 @@ textarea {
     flex-direction: column;
     padding: 0px;
     gap: 30px;
+    width: 50%;
+    flex-shrink: 0;
 }
 
-.basicinfo__card-one--info {
+.basicinfo__card-one-info {
     display: flex;
     flex-direction: column;
     padding: 0px;
     gap: 15px;
 }
 
-.basicinfo__card-one--heading {
+.basicinfo__card-one-heading {
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 36px;
@@ -596,7 +598,7 @@ textarea {
     color: #56565A;
 }
 
-.basicinfo__card-one--text {
+.basicinfo__card-one-text {
     font-family: 'Source Sans Pro';
     font-weight: 400;
     font-size: 16px;
@@ -605,13 +607,13 @@ textarea {
     color: #56565A;
 }
 
-.basicinfo__card-one--buttons {
+.basicinfo__card-one-buttons {
     display: flex;
     padding: 0px;
     gap: 15px;
 }
 
-.basicinfo__card--button-one {
+.basicinfo__card-one-buttons_primary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -624,7 +626,7 @@ textarea {
     background: #0A467E;
 }
 
-.basicinfo__card--button-two {
+.basicinfo__card-one-buttons_secondary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -638,21 +640,22 @@ textarea {
 }
 
 .basicinfo__card-two {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 
     padding: 0px;
     gap: 15px;
 }
 
-.basicinfo__card-two__subcard-one {
+.basicinfo__card-two-subcard-first {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 0px;
     gap: 10px;
 }
 
-.basicinfo__card-two__subcard-one--info {
+.basicinfo__card-two-subcard-first_info {
     box-sizing: border-box;
 
     display: flex;
@@ -667,12 +670,12 @@ textarea {
     border-radius: 5px;
 }
 
-.basicinfo__card-subcard--pic1 {
+.basicinfo__card-subcard-pic1 {
     width: 30px;
     height: 30px;
 }
 
-.basicinfo__card-subcard--heading {
+.basicinfo__card-subcard-heading {
     font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 18px;
@@ -683,7 +686,7 @@ textarea {
     color: #56565A;
 }
 
-.basicinfo__card-subcard--text {
+.basicinfo__card-subcard-text {
     font-family: 'Source Sans Pro';
     font-weight: 400;
     font-size: 14px;
@@ -694,36 +697,22 @@ textarea {
     color: #56565A;
 }
 
-.basicinfo__card-subcard--pic2 {
+.basicinfo__card-subcard-pic2 {
     width: 170px;
     height: 0px;
 
     border: 1px solid #E5E5E5;
 }
 
-.basicinfo__card-two__subcard-two--info {
+.basicinfo__card-two-subcard-second_info {
     box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 22px;
+    padding: 50px;
     gap: 10px;
-
-    background: #F7F7F7;
-
-    border: 1px solid #EDEDED;
-    border-radius: 5px;
-}
-
-.basicinfo__card-two__subcard-three--info {
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 22px;
-    gap: 10px;
+    height: 100%;
 
     background: #F7F7F7;
 
