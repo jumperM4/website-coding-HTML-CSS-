@@ -720,16 +720,22 @@ textarea {
 /* Basicinfo end */
 
 @media screen and (max-width: 820px) {
+    .wrap {
+        max-width: 820px;
+        margin: 0px auto;
+    }
+
     .header {
         margin-top: 10px;
         margin-bottom: 50px;
+        padding: 0 20px;
     }
 
     .devinfo {
-        margin: 0px 25px;
         justify-content: space-between;
         gap: 0px;
         row-gap: 25px;
+        margin: 0 30px;
     }
 
     .devinfo__item {
@@ -740,9 +746,36 @@ textarea {
     .devinfo__item-heading {
         margin-bottom: 15px;
     }
+
+    .basicinfo {
+        flex-direction: column;
+        padding: 60px 25px;
+        gap: 40px;
+    }
+
+    .basicinfo__card-one {
+        width: 100%;
+    }
+
+    .basicinfo__card-one-info {
+        align-items: center;
+    }
+
+    .basicinfo__card-one-text {
+        text-align: center;
+    }
+
+    .basicinfo__card-one-buttons {
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 415px) {
+
+    .wrap {
+        max-width: 415px;
+    }
 
     .header {
         margin-top: 10px;
@@ -760,5 +793,17 @@ textarea {
 
     .devinfo__item-heading {
         margin-bottom: 10px;
+    }
+
+    .basicinfo__card-one-heading {
+        text-align: center;
+    }
+
+    .basicinfo__card-two {
+        grid-template-columns: 1fr;
+    }
+
+    .basicinfo__card-two-subcard-second_info {
+        padding: 25px;
     }
 }
