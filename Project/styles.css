@@ -576,7 +576,6 @@ textarea {
 .basicinfo__card-one {
     display: flex;
     flex-direction: column;
-    padding: 0px;
     gap: 30px;
     width: 50%;
     flex-shrink: 0;
@@ -644,14 +643,12 @@ textarea {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
-    padding: 0px;
     gap: 15px;
 }
 
 .basicinfo__card-two-subcard-first {
     display: flex;
     flex-direction: column;
-    padding: 0px;
     gap: 10px;
 }
 
