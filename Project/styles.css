@@ -726,13 +726,10 @@ textarea {
     max-width: 1170xp;
     margin: auto 135px;
 
-    background: linear-gradient(90deg, #C4CAD0 44.79%, rgba(204, 207, 210, 0) 64.27%),
-        url(./img/woman-pic.jfif),
-        linear-gradient(94.22deg, #BDC5CD 26.27%, #CBCED1 53.83%);
-background-repeat: no-repeat;
-background-position-x: right;
+    background-image: url(./img/woman_big.jpg);
+    background-size: cover;
 
-
+    margin-bottom: 150px;
 }
 
 .calculator__info {
