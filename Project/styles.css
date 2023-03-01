@@ -720,6 +720,117 @@ textarea {
 
 /* Basicinfo end */
 
+
+/*footer start*/
+
+.progress {
+    max-width: 370px;
+    padding: 24px 32px;
+}
+
+.progress__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.progress__container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progress__container-title-text {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #515151;
+}
+
+.progress__container-title-heading {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #061B36;
+}
+
+.progress__container-line {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progress__container-line-value {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #77BB2F;
+}
+
+.progress__container-line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 306px;
+    height: 4px;
+
+    background: #EEF3F7;
+    border-radius: 9999px;
+}
+
+.progress__container-line-green {
+    height: 4px;
+
+    background: #77BB2F;
+    border-radius: 9999px;
+}
+
+.progress__container_stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.progress__container-video-icon,
+.progress__container-tests-icon {
+    margin-right: 11px;
+}
+
+.progress__container-video-text_left,
+.progress__container-tests-text_left {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 208px;
+
+    color: #061B36;
+}
+
+.progress__container-video-text_right,
+.progress__container-tests-text_right {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #515151;
+}
+
+/*footer end*/
+
 /* Calculator start */
 
 .calculator {
