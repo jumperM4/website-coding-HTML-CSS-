@@ -727,6 +727,7 @@ textarea {
 
 .progress {
     max-width: 370px;
+    margin: 0 auto;
     padding: 24px 32px;
 }
 
