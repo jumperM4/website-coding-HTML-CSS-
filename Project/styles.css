@@ -571,6 +571,7 @@ textarea {
     align-items: center;
     padding: 60px 135px;
     gap: 60px;
+    margin-bottom: 100px;
 }
 
 .basicinfo__card-one {
@@ -718,6 +719,98 @@ textarea {
 }
 
 /* Basicinfo end */
+
+/* Calculator start */
+
+.calculator {
+    max-width: 1170xp;
+    margin: auto 135px;
+
+    background-image: url(./img/woman_big.jpg);
+    background-size: cover;
+
+    margin-bottom: 150px;
+}
+
+.calculator__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    max-width: 587px;
+    padding: 60px 0 45px 100px;
+}
+
+.calculator__asterisk {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    padding-left: 100px;
+    padding-bottom: 22px;
+
+    color: #8F989F;
+}
+
+.calculator__info-heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.calculator__info-list {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.calculator__info-list-heading {
+    margin-bottom: 10px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.calculator__info-list-item {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.calculator__info-button {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 174px;
+    height: 44px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #DADADA;
+}
+
+/* Calculator end */
+
 
 @media screen and (max-width: 820px) {
     .wrap {
